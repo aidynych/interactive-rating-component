@@ -71,6 +71,7 @@ const Choose = () => {
             alert("Qaraqat vibery rating sperva");
           } else {
             setIsRatingGiven(true);
+            alert("Molodec");
           }
         }}
         className="button"
