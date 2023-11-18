@@ -68,10 +68,10 @@ const Choose = () => {
       <button
         onClick={() => {
           if (rating === null) {
-            alert("Qaraqat vibery rating sperva");
+            alert("Mama Papa viberyte rating sperva");
           } else {
             setIsRatingGiven(true);
-            alert("Molodec");
+            alert("Tema");
           }
         }}
         className="button"
