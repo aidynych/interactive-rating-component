@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "./App.css";
 import { AppContext } from "./Context";
 const Choose = () => {
-  const { setRating, setIsRatingGiven, rating } = useContext(AppContext);
+  const { setRating, setIsRatingGiven } = useContext(AppContext);
   return (
     <article className="card">
       <div className="background-circled" data-start="start">
@@ -67,12 +67,8 @@ const Choose = () => {
       </div>
       <button
         onClick={() => {
-          if (rating === null) {
-            alert("Mama Papa viberyte rating sperva");
-          } else {
-            setIsRatingGiven(true);
-            alert("Tema");
-          }
+          setIsRatingGiven(true);
+          alert("Nice");
         }}
         className="button"
       >
