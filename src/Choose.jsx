@@ -71,7 +71,7 @@ const Choose = () => {
             alert("Choose a rating first, thanks");
           } else {
             setIsRatingGiven(true);
-            alert("Tema");
+            alert("Nice");
           }
         }}
         className="button"
